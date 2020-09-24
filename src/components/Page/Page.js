@@ -150,20 +150,6 @@ class Page extends Component {
 		this.setState({
 			playing: playing,
 		});
-		// this.audio = new Audio(this.ur + this.urls[ID]);
-
-		// this.audio.addEventListener(
-		// 	'ended',
-		// 	function () {
-		// 		this.currentTime = 0;
-		// 		this.play();
-		// 	},
-		// 	false
-		// );
-
-		// 	this.currentTime = 0;
-		// 	this.audio.load();
-		// 	this.audio.play();
 	};
 	handlePlayPress = (ID) => {
 		let play = [...this.state.play];
@@ -173,32 +159,10 @@ class Page extends Component {
 		this.setState({
 			play: play,
 		});
-		// if (!this.state.play[ID]) {
-		// 	nplay = false;
-		// 	play[ID] = nplay;
-		// 	this.setState({
-		// 		play: play,
-		// 	});
 
-		// 	this.event = this.clock
-		// 		.callbackAtTime(
-		// 			() => this.handlePlay(ID),
-		// 			this.context.currentTime
-		// 		)
-		// 		.repeat(5.3);
-		// } else {
-		// 	nplay = true;
-		// 	play[ID] = nplay;
-		// 	this.setState({
-		// 		play: play,
-		// 	});
-		// 	this.audio.pause();
-		// 	this.event.clear();
-		// 	this.event = null;
-		// }
 	};
 	render() {
-		//'https://www.incredibox.com/webapp/asset-v1/sound/ogg/';
+	
 		const IDs = [
 			1,
 			2,
