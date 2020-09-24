@@ -1,4 +1,94 @@
-.Pages{
+.Page{
     min-height: 100vh;
     max-height: 100vh;
+    padding: 8%;
+    
+}
+
+.Button {
+	display: inline-block;
+	margin: 20px;
+	text-align: center;
+	height: 4rem;
+	width: 4rem;
+	line-height: 2.34375rem;
+
+	background: #313d4c;
+	padding: 10px 15px;
+	box-shadow: gray 2px 2px 2px 0;
+	border: 0ch;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	/* box-shadow: #62BFAD 5px 5px 0; */
+	position: relative;
+	-webkit-transition-property: color;
+	transition-property: color;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	color: #f9f7e8;
+}
+.Button:before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #62bfad;
+	/* box-shadow: #313d4c 5px 5px 0; */
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	border: 0ch;
+}
+.Button:hover,
+.Button:focus,
+.Button:active{
+	outline: none !important;
+	outline-offset: none !important;
+	color: #f9f7e8;
+	border: 0ch;
+}
+.Button:hover:before,
+.Button:focus:before,
+.Button:active:before{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	border: 0ch;
+}
+
+
+.true {
+    
+	background-color: #62bfad;
+    border: 0ch;
+    
+}
+.mtrue{
+    animation: shake 0.6625s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
 }
