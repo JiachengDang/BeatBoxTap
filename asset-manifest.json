@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BeatBoxTap/static/css/main.37ec23d1.chunk.css",
-    "main.js": "/BeatBoxTap/static/js/main.88be868e.chunk.js",
-    "main.js.map": "/BeatBoxTap/static/js/main.88be868e.chunk.js.map",
+    "main.js": "/BeatBoxTap/static/js/main.92797cca.chunk.js",
+    "main.js.map": "/BeatBoxTap/static/js/main.92797cca.chunk.js.map",
     "runtime-main.js": "/BeatBoxTap/static/js/runtime-main.2d176715.js",
     "runtime-main.js.map": "/BeatBoxTap/static/js/runtime-main.2d176715.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/BeatBoxTap/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.64f97330.chunk.js": "/BeatBoxTap/static/js/2.64f97330.chunk.js",
     "static/js/2.64f97330.chunk.js.map": "/BeatBoxTap/static/js/2.64f97330.chunk.js.map",
     "index.html": "/BeatBoxTap/index.html",
-    "precache-manifest.a7c05e7a8d39e1df2d64c20d86992918.js": "/BeatBoxTap/precache-manifest.a7c05e7a8d39e1df2d64c20d86992918.js",
+    "precache-manifest.df0b56f67a887555522d9416d5a601ae.js": "/BeatBoxTap/precache-manifest.df0b56f67a887555522d9416d5a601ae.js",
     "service-worker.js": "/BeatBoxTap/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/BeatBoxTap/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.37ec23d1.chunk.css.map": "/BeatBoxTap/static/css/main.37ec23d1.chunk.css.map",
@@ -41,6 +41,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.64f97330.chunk.js",
     "static/css/main.37ec23d1.chunk.css",
-    "static/js/main.88be868e.chunk.js"
+    "static/js/main.92797cca.chunk.js"
   ]
 }
