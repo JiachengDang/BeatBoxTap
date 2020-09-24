@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/BeatBoxTap/static/css/main.63004961.chunk.css",
+    "main.css": "/BeatBoxTap/static/css/main.520611ec.chunk.css",
     "main.js": "/BeatBoxTap/static/js/main.92797cca.chunk.js",
     "main.js.map": "/BeatBoxTap/static/js/main.92797cca.chunk.js.map",
     "runtime-main.js": "/BeatBoxTap/static/js/runtime-main.2d176715.js",
@@ -9,10 +9,10 @@
     "static/js/2.64f97330.chunk.js": "/BeatBoxTap/static/js/2.64f97330.chunk.js",
     "static/js/2.64f97330.chunk.js.map": "/BeatBoxTap/static/js/2.64f97330.chunk.js.map",
     "index.html": "/BeatBoxTap/index.html",
-    "precache-manifest.701d6474ab281bbf1aea1899ed0026d6.js": "/BeatBoxTap/precache-manifest.701d6474ab281bbf1aea1899ed0026d6.js",
+    "precache-manifest.107175697755b2f5e99c78dd13191857.js": "/BeatBoxTap/precache-manifest.107175697755b2f5e99c78dd13191857.js",
     "service-worker.js": "/BeatBoxTap/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/BeatBoxTap/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.63004961.chunk.css.map": "/BeatBoxTap/static/css/main.63004961.chunk.css.map",
+    "static/css/main.520611ec.chunk.css.map": "/BeatBoxTap/static/css/main.520611ec.chunk.css.map",
     "static/js/2.64f97330.chunk.js.LICENSE.txt": "/BeatBoxTap/static/js/2.64f97330.chunk.js.LICENSE.txt",
     "static/media/10_uh_a.ogg": "/BeatBoxTap/static/media/10_uh_a.da7b571e.ogg",
     "static/media/11_nugu_a.ogg": "/BeatBoxTap/static/media/11_nugu_a.69e1f89e.ogg",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.2d176715.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.64f97330.chunk.js",
-    "static/css/main.63004961.chunk.css",
+    "static/css/main.520611ec.chunk.css",
     "static/js/main.92797cca.chunk.js"
   ]
 }
