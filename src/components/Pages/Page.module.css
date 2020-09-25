@@ -125,12 +125,29 @@
 }
 
 @media (max-width: 500px) {
+	.Page{
+		width: 100%;
+		display: inline-block;
+		align-items: center;
+		padding: 0%;
+		padding-top: 2%;
+	}
 	.Button {
-		margin: 5px;
+		
+		
+		margin: 4%;
 		height: 4rem;
-	width: 4rem;
-		
-		
+		width: 4rem;
+
 		font-size: 1rem;
 	}
+}
+
+.menu{
+width: 100%;
+position: relative;
+left: 48%;
+padding-top: 1%;
+	
+	
 }

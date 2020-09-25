@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classes from './Page.module.css';
-import Button from '../UI/Button/Button';
+
 import Aux from '../../hoc/Auks';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import { Howl, Howler } from 'howler';
@@ -45,8 +45,8 @@ import n17 from '../../assets/Sound/3/voix2.ogg';
 import n18 from '../../assets/Sound/3/voix3.ogg';
 import n19 from '../../assets/Sound/3/voix4.ogg';
 import n20 from '../../assets/Sound/3/voix5.ogg';
-import { Checkbox } from 'semantic-ui-react';
 import Icons from '../Icons/Icons';
+
 const fs = [
 	false,
 	false,
@@ -75,72 +75,66 @@ const fs = [
 	false,
 ];
 class Page extends Component {
-	constructor(props){
-		super(props);
-		this.state = {
-			style: 1,
-			play: [
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-			],
-			playing: [
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-				false,
-			],
-		};
-	
-	}
-
-	ur = 'src/assets/Sound/1/'; //src/assets/Sound/1/ https://www.incredibox.com/webapp/asset-v1/sound/ogg/
+	state = {
+		
+		style: 1,
+		play: [
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+		],
+		playing: [
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+			false,
+		],
+	};
 
 	componentDidMount() {
-		
 		this.context = new window.AudioContext();
 		this.clock = new WAAClock(this.context);
 		this.clock.start();
@@ -148,7 +142,7 @@ class Page extends Component {
 			.callbackAtTime(this.handleStart, 0)
 			.repeat(this.state.style === 1 ? 5.3 : 8);
 	}
-	componentWillUnmount(){
+	componentWillUnmount() {
 		this.handleMute();
 	}
 
@@ -174,8 +168,8 @@ class Page extends Component {
 		this.handlePlay(19);
 		this.handlePlay(20);
 	};
-	
-	handlePlay = (ID,mute) => {
+
+	handlePlay = (ID) => {
 		this.sound = new Howl({
 			src: [this.urls[ID]],
 			autoplay: true,
@@ -189,14 +183,13 @@ class Page extends Component {
 			playing: playing,
 		});
 	};
-	
-	handleMute= () => {
+
+	handleMute = () => {
 		this.sound.mute(true);
 		this.clock.stop();
 		this.event.clear();
 		this.event = null;
-		
-	}
+	};
 	handlePlayPress = (ID) => {
 		let play = [...this.state.play];
 		let nplay = play[ID];
@@ -207,7 +200,7 @@ class Page extends Component {
 		});
 	};
 	render() {
-	
+		
 		this.urls =
 			this.state.style === 1
 				? [
@@ -256,13 +249,7 @@ class Page extends Component {
 						n19,
 						n20,
 				  ];
-		const sceneTop = (
-			<Aux>
-				<h1>BeatBoxTap</h1>
-				<button>START</button>
-				<button>ABOUT</button>
-			</Aux>
-		);
+
 		const IDs = [
 			1,
 			2,
@@ -300,6 +287,7 @@ class Page extends Component {
 		));
 		return (
 			<Aux>
+				
 				<div
 					className={[
 						classes.Page,
@@ -307,7 +295,6 @@ class Page extends Component {
 					].join(' ')}
 				>
 					{' '}
-					
 					{IDs}
 				</div>
 			</Aux>
