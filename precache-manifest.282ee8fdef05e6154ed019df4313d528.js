@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad4241ee22fef0a2e4b45913fe7baf03",
+    "revision": "61ffb541413055b31658417ddc493a6a",
     "url": "/BeatBoxTap/index.html"
   },
   {
-    "revision": "d1d3548c9aa1eb37d557",
-    "url": "/BeatBoxTap/static/css/2.63bcf70e.chunk.css"
+    "revision": "a249b25dc40484b8698d",
+    "url": "/BeatBoxTap/static/css/2.f2f4f606.chunk.css"
   },
   {
-    "revision": "41c7a4111f8ced632556",
-    "url": "/BeatBoxTap/static/css/main.06ed3447.chunk.css"
+    "revision": "b949bbfef4302b4e21c8",
+    "url": "/BeatBoxTap/static/css/main.3f878a3f.chunk.css"
   },
   {
-    "revision": "d1d3548c9aa1eb37d557",
-    "url": "/BeatBoxTap/static/js/2.2e99b344.chunk.js"
+    "revision": "a249b25dc40484b8698d",
+    "url": "/BeatBoxTap/static/js/2.220d33db.chunk.js"
   },
   {
-    "revision": "eaa35b1ccc0320d7ec9314f2e19ded2a",
-    "url": "/BeatBoxTap/static/js/2.2e99b344.chunk.js.LICENSE.txt"
+    "revision": "c01defcb391996e98b34d22da325db05",
+    "url": "/BeatBoxTap/static/js/2.220d33db.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "41c7a4111f8ced632556",
-    "url": "/BeatBoxTap/static/js/main.fee8a6db.chunk.js"
+    "revision": "b949bbfef4302b4e21c8",
+    "url": "/BeatBoxTap/static/js/main.5721dcf7.chunk.js"
   },
   {
     "revision": "31d8a425816e4cf31e58",
@@ -106,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8f0d94db0ca6a9b88e7f4df368cda495",
     "url": "/BeatBoxTap/static/media/9_bass_a.8f0d94db.ogg"
+  },
+  {
+    "revision": "f9baef8ac0d836e6486419e282e42336",
+    "url": "/BeatBoxTap/static/media/Quicksand-VariableFont_wght.f9baef8a.ttf"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",

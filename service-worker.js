@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BeatBoxTap/precache-manifest.a51ee25cc3cff84149f1ee0147fccb7d.js"
+  "/BeatBoxTap/precache-manifest.282ee8fdef05e6154ed019df4313d528.js"
 );
 
 self.addEventListener('message', (event) => {

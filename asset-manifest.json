@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/BeatBoxTap/static/css/main.06ed3447.chunk.css",
-    "main.js": "/BeatBoxTap/static/js/main.fee8a6db.chunk.js",
-    "main.js.map": "/BeatBoxTap/static/js/main.fee8a6db.chunk.js.map",
+    "main.css": "/BeatBoxTap/static/css/main.3f878a3f.chunk.css",
+    "main.js": "/BeatBoxTap/static/js/main.5721dcf7.chunk.js",
+    "main.js.map": "/BeatBoxTap/static/js/main.5721dcf7.chunk.js.map",
     "runtime-main.js": "/BeatBoxTap/static/js/runtime-main.2d176715.js",
     "runtime-main.js.map": "/BeatBoxTap/static/js/runtime-main.2d176715.js.map",
-    "static/css/2.63bcf70e.chunk.css": "/BeatBoxTap/static/css/2.63bcf70e.chunk.css",
-    "static/js/2.2e99b344.chunk.js": "/BeatBoxTap/static/js/2.2e99b344.chunk.js",
-    "static/js/2.2e99b344.chunk.js.map": "/BeatBoxTap/static/js/2.2e99b344.chunk.js.map",
+    "static/css/2.f2f4f606.chunk.css": "/BeatBoxTap/static/css/2.f2f4f606.chunk.css",
+    "static/js/2.220d33db.chunk.js": "/BeatBoxTap/static/js/2.220d33db.chunk.js",
+    "static/js/2.220d33db.chunk.js.map": "/BeatBoxTap/static/js/2.220d33db.chunk.js.map",
     "index.html": "/BeatBoxTap/index.html",
-    "precache-manifest.a51ee25cc3cff84149f1ee0147fccb7d.js": "/BeatBoxTap/precache-manifest.a51ee25cc3cff84149f1ee0147fccb7d.js",
+    "precache-manifest.282ee8fdef05e6154ed019df4313d528.js": "/BeatBoxTap/precache-manifest.282ee8fdef05e6154ed019df4313d528.js",
     "service-worker.js": "/BeatBoxTap/service-worker.js",
-    "static/css/2.63bcf70e.chunk.css.map": "/BeatBoxTap/static/css/2.63bcf70e.chunk.css.map",
-    "static/css/main.06ed3447.chunk.css.map": "/BeatBoxTap/static/css/main.06ed3447.chunk.css.map",
-    "static/js/2.2e99b344.chunk.js.LICENSE.txt": "/BeatBoxTap/static/js/2.2e99b344.chunk.js.LICENSE.txt",
+    "static/css/2.f2f4f606.chunk.css.map": "/BeatBoxTap/static/css/2.f2f4f606.chunk.css.map",
+    "static/css/main.3f878a3f.chunk.css.map": "/BeatBoxTap/static/css/main.3f878a3f.chunk.css.map",
+    "static/js/2.220d33db.chunk.js.LICENSE.txt": "/BeatBoxTap/static/js/2.220d33db.chunk.js.LICENSE.txt",
     "static/media/10_uh_a.ogg": "/BeatBoxTap/static/media/10_uh_a.da7b571e.ogg",
     "static/media/11_nugu_a.ogg": "/BeatBoxTap/static/media/11_nugu_a.69e1f89e.ogg",
     "static/media/12_guit_a.ogg": "/BeatBoxTap/static/media/12_guit_a.eaa216ea.ogg",
@@ -34,6 +34,7 @@
     "static/media/7_scratch_a.ogg": "/BeatBoxTap/static/media/7_scratch_a.3a812216.ogg",
     "static/media/8_trill_a.ogg": "/BeatBoxTap/static/media/8_trill_a.0bb72233.ogg",
     "static/media/9_bass_a.ogg": "/BeatBoxTap/static/media/9_bass_a.8f0d94db.ogg",
+    "static/media/index.css": "/BeatBoxTap/static/media/Quicksand-VariableFont_wght.f9baef8a.ttf",
     "static/media/semantic.min.css": "/BeatBoxTap/static/media/outline-icons.ef60a4f6.woff",
     "static/media/drum1.ogg": "/BeatBoxTap/static/media/drum1.10d86d64.ogg",
     "static/media/drum2.ogg": "/BeatBoxTap/static/media/drum2.6da3f7b3.ogg",
@@ -59,9 +60,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2d176715.js",
-    "static/css/2.63bcf70e.chunk.css",
-    "static/js/2.2e99b344.chunk.js",
-    "static/css/main.06ed3447.chunk.css",
-    "static/js/main.fee8a6db.chunk.js"
+    "static/css/2.f2f4f606.chunk.css",
+    "static/js/2.220d33db.chunk.js",
+    "static/css/main.3f878a3f.chunk.css",
+    "static/js/main.5721dcf7.chunk.js"
   ]
 }
