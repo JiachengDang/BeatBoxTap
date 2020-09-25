@@ -1,8 +1,9 @@
 .Page {
-	min-height: 100vh;
-	max-height: 100vh;
+	min-height: 90vh;
+	max-height: 90vh;
 	padding: 6%;
 	background-color: #f9f7e8;
+	
 }
 .Page.v2 {
 	background-color: #383e56;
@@ -122,11 +123,12 @@
 .Pages {
 	min-height: 0vh;
 	max-height: 0vh;
+
 }
 
 @media (max-width: 500px) {
 	.Page{
-		width: 100%;
+		
 		display: inline-block;
 		align-items: center;
 		padding: 0%;
@@ -141,13 +143,15 @@
 
 		font-size: 1rem;
 	}
+
 }
 
 .menu{
-width: 100%;
+background-color: #383e56;
 position: relative;
-left: 48%;
-padding-top: 1%;
+
+
+top: 2%;
 	
 	
 }

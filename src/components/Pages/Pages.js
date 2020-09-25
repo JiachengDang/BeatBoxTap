@@ -76,7 +76,7 @@ class Pages extends Component {
 
 		return (
 			<Aux>
-				{Tool}
+				
 				<Modal
 					modalClosed={() => this.setState({ show: false })}
 					show={this.state.show}
@@ -84,8 +84,9 @@ class Pages extends Component {
 				>
 					{sceneTop}
 				</Modal>
-
+                {Tool}
 				{this.state.pageNumber === 1 ? (
+                    
 					<Page1 ref={this.child1}></Page1>
 				) : (
 					<Page2 ref={this.child2}></Page2>
