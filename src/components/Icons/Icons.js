@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import classes from './Icons.module.css'
-import { home } from 'react-icons-kit/icomoon/home';
 import {
 	u1F601,
 	u1F603,
