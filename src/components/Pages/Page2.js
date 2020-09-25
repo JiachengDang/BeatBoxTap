@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import classes from './Page.module.css';
-import Button from '../UI/Button/Button';
 import Aux from '../../hoc/Auks';
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
-import { Howl, Howler } from 'howler';
+import { Howl} from 'howler';
 import WAAClock from 'waaclock';
 import m1 from '../../assets/Sound/1/1_lead_a.ogg';
 import m2 from '../../assets/Sound/1/2_deux_a.ogg';
@@ -45,39 +43,10 @@ import n17 from '../../assets/Sound/3/voix2.ogg';
 import n18 from '../../assets/Sound/3/voix3.ogg';
 import n19 from '../../assets/Sound/3/voix4.ogg';
 import n20 from '../../assets/Sound/3/voix5.ogg';
-import { Checkbox } from 'semantic-ui-react';
 import Icons from '../Icons/Icons';
-const fs = [
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-];
+
 class Page extends Component {
-	constructor(props){
-		super(props);
-		this.state = {
+	state = {
 			style: 2,
 			play: [
 				false,
@@ -135,12 +104,12 @@ class Page extends Component {
 			],
 		};
 	
-	}
+	
 		
 	
 
 	
-	ur = 'src/assets/Sound/1/'; //src/assets/Sound/1/ https://www.incredibox.com/webapp/asset-v1/sound/ogg/
+	ur = 'src/assets/Sound/1/';
 
 	componentDidMount() {
 	
@@ -259,13 +228,6 @@ class Page extends Component {
 						n19,
 						n20,
 				  ];
-		const sceneTop = (
-			<Aux>
-				<h1>BeatBoxTap</h1>
-				<button>START</button>
-				<button>ABOUT</button>
-			</Aux>
-		);
 		const IDs = [
 			1,
 			2,

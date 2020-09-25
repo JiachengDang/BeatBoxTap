@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import classes from './Icons.module.css'
 import {
 	u1F601,

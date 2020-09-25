@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import classes from './Page.module.css';
 
 import Aux from '../../hoc/Auks';
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
-import { Howl, Howler } from 'howler';
+import { Howl} from 'howler';
 import WAAClock from 'waaclock';
 import m1 from '../../assets/Sound/1/1_lead_a.ogg';
 import m2 from '../../assets/Sound/1/2_deux_a.ogg';
@@ -47,33 +46,7 @@ import n19 from '../../assets/Sound/3/voix4.ogg';
 import n20 from '../../assets/Sound/3/voix5.ogg';
 import Icons from '../Icons/Icons';
 
-const fs = [
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-];
+
 class Page extends Component {
 	state = {
 		

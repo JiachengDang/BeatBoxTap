@@ -2,10 +2,8 @@
 	min-height: 100vh;
 	max-height: 100vh;
 	padding: 6%;
-	margin-top: -8%;
-	padding-top: 12%;
 	background-color: #f9f7e8;
-
+	
 	
 }
 .Page.v2 {
@@ -29,7 +27,6 @@
 	vertical-align: middle;
 	-webkit-transform: perspective(1px) translateZ(0);
 	transform: perspective(1px) translateZ(0);
-	/* box-shadow: #62BFAD 5px 5px 0; */
 	position: relative;
 	-webkit-transition-property: color;
 	transition-property: color;
@@ -53,7 +50,6 @@
 	right: 0;
 	bottom: 0;
 	background-color: #62bfad;
-	/* box-shadow: #313d4c 5px 5px 0; */
 	-webkit-transform: scale(0);
 	transform: scale(0);
 	-webkit-transition-property: transform;
@@ -116,15 +112,7 @@
 	}
 }
 
-.Checkbox {
-	color: #eedad1;
-	
-	float: left;
-	overflow: hidden;
-	margin-top: 10px;
-	margin-left: 10px;
-	margin-bottom: 0px;
-}
+
 
 .Pages {
 	min-height: 0vh;
@@ -135,15 +123,14 @@
 @media (max-width: 500px) {
 	.Page{
 		
-		display: inline-block;
-		align-items: center;
-		padding: 0%;
-		
+
+	
 	}
 	.Button {
 		
 		
 		margin: 4%;
+		
 		height: 4rem;
 		width: 4rem;
 
@@ -153,10 +140,22 @@
 }
 
 .menu{
-position: relative;
-float: right;
-overflow: hidden;
-top: 2%;
+
+
+position: absolute; 
+right: 0;
+
 	
 	
+}
+.Checkbox {
+	position: absolute; 
+	left: 0;
+	color: #eedad1;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+}
+.Tool{
+	position: relative; 
 }

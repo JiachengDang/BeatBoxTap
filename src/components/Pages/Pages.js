@@ -12,22 +12,20 @@ class Pages extends Component {
 		show: false,
 		pageNumber: 1,
 	};
-	child1 = React.createRef();
-	child2 = React.createRef();
 	handleToggle = () => {
 		if (this.state.pageNumber === 2) {
 			this.setState({ pageNumber: 1 });
-			// this.child1.current.handleUnMute()
+
 		} else {
 			this.setState({ pageNumber: 2 });
 		}
 	};
 	render() {
 		const Tool = (
-			<Aux>
-				<div className={classes.Pages}>
+			<div className={[classes.Tool,classes['k'+this.state.pageNumber]]}>
+				<div className={classes.Checkbox}>
 					<Checkbox
-						className={classes.Checkbox}
+						
 						slider
 						onChange={this.handleToggle}
 					/>
@@ -42,7 +40,7 @@ class Pages extends Component {
 						color="grey"
 					/>
 				</div>
-			</Aux>
+			</div>
 		);
 		const sceneTop = (
 			<Aux>
@@ -66,7 +64,7 @@ class Pages extends Component {
 				<Button
 					target="_blank"
 					href="https://github.com/Lempickax/BeatBoxTap"
-					color="white"
+					
 				>
 					<Icon compact="true" size="big" name="github" />
 					Github
@@ -87,9 +85,9 @@ class Pages extends Component {
                 {Tool}
 				{this.state.pageNumber === 1 ? (
                     
-					<Page1 ref={this.child1}></Page1>
+					<Page1></Page1>
 				) : (
-					<Page2 ref={this.child2}></Page2>
+					<Page2></Page2>
 				)}
 			</Aux>
 		);
