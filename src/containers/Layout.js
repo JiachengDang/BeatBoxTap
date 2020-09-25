@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Aux from '../hoc/Auks'
-import Page from '../components/Page/Page'
+import Page from '../components/Pages/Page1'
+import Pages from '../components/Pages/Pages'
+
 
 
 class Layout extends Component {
@@ -13,7 +15,7 @@ class Layout extends Component {
         return (
             <Aux>
                 
-                <Page></Page>
+                <Pages></Pages>
             </Aux>
           );
     }

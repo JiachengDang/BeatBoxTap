@@ -1,18 +1,21 @@
-.Page{
-    min-height: 100vh;
-    max-height: 100vh;
-    padding: 8%;
-    
+.Page {
+	min-height: 100vh;
+	max-height: 100vh;
+	padding: 6%;
+	background-color: #f9f7e8;
 }
-
+.Page.v2 {
+	background-color: #383e56;
+}
 .Button {
+	border-radius: 7px;
 	display: inline-block;
 	margin: 20px;
 	text-align: center;
-	height: 4rem;
-	width: 4rem;
+	height: 8rem;
+	width: 8rem;
 	line-height: 2.34375rem;
-
+	font-size: 2rem;
 	background: #313d4c;
 	padding: 10px 15px;
 	box-shadow: gray 2px 2px 2px 0;
@@ -29,7 +32,14 @@
 	transition-duration: 0.3s;
 	color: #f9f7e8;
 }
+.Button.v2 {
+	background: #eedad1;
+	color: #383e56;
+	box-shadow: none;
+}
+
 .Button:before {
+	border-radius: 7px;
 	content: '';
 	position: absolute;
 	z-index: -1;
@@ -49,35 +59,43 @@
 	transition-timing-function: ease-out;
 	border: 0ch;
 }
+.v2.Button:before {
+	background-color: #ffefa0;
+}
 .Button:hover,
 .Button:focus,
-.Button:active{
+.Button:active {
 	outline: none !important;
 	outline-offset: none !important;
-	color: #f9f7e8;
+
 	border: 0ch;
 }
 .Button:hover:before,
 .Button:focus:before,
-.Button:active:before{
+.Button:active:before {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	border: 0ch;
 }
 
-
-.true {
-    
+.true.v1 {
 	background-color: #62bfad;
-    border: 0ch;
-    
+	border: 0ch;
 }
-.mtrue{
-    animation: shake 0.6625s;
-    animation-iteration-count: infinite;
+.true.v2 {
+	background-color: #ffefa0;
+	border: 0ch;
+}
+.mtrue.v1 {
+	animation: shake 0.6625s;
+	animation-iteration-count: infinite;
+}
+.mtrue.v2 {
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
 }
 @keyframes shake {
-    0% {
+	0% {
 		transform: scale(0.95);
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
 	}
@@ -90,5 +108,29 @@
 	100% {
 		transform: scale(0.95);
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
 }
+
+.Checkbox {
+	color: #eedad1;
+	position: relative;
+	right: 45%;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.Pages {
+	min-height: 0vh;
+	max-height: 0vh;
+}
+
+@media (max-width: 500px) {
+	.Button {
+		margin: 5px;
+		height: 4rem;
+	width: 4rem;
+		
+		
+		font-size: 1rem;
+	}
 }
