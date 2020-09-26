@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9745dc6cdf46b69d100770304f881f5b",
+    "revision": "3f814f92ad2d876d3fd28293f9c6d224",
     "url": "/BeatBoxTap/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BeatBoxTap/static/css/2.f2f4f606.chunk.css"
   },
   {
-    "revision": "aa080132321a24bf6445",
-    "url": "/BeatBoxTap/static/css/main.cb2845ea.chunk.css"
+    "revision": "5eb0b87a114a5dee8cc1",
+    "url": "/BeatBoxTap/static/css/main.a2aa59fc.chunk.css"
   },
   {
     "revision": "d68dc38b15e1c50f4485",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BeatBoxTap/static/js/2.38fb1def.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aa080132321a24bf6445",
-    "url": "/BeatBoxTap/static/js/main.1c599f36.chunk.js"
+    "revision": "5eb0b87a114a5dee8cc1",
+    "url": "/BeatBoxTap/static/js/main.779cbab0.chunk.js"
   },
   {
     "revision": "31d8a425816e4cf31e58",
