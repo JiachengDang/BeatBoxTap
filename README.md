@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# A BeatBox LaunchPad!
+# A BeatBox LaunchPad! [Demo](https://lempickax.github.io/BeatBoxTap/).
 
 ## Make music by simply clicking on the buttons!
 
